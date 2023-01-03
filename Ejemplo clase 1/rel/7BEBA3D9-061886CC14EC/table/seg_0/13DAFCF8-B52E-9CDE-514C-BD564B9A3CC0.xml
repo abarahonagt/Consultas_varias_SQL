@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="13DAFCF8-B52E-9CDE-514C-BD564B9A3CC0" name="Alumno">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-01 21:17:45 UTC</createdTime>
+<generatorID>060E7A0E-ABD8-DAF9-BC01-8CBC1DDDF9AF</generatorID>
+<ownerDesignName>Ejemplo clase 1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Alumno" id="F7BC5866-6B92-749B-9C1E-FA4F5A7A80E9">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-01 21:17:45 UTC</createdTime>
+<generatorID>7B567C64-9D13-2527-E7AF-98FCBA364065</generatorID>
+<ownerDesignName>Ejemplo clase 1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="90626345-C190-84DC-0278-8F2761C8725C">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-01 21:17:45 UTC</createdTime>
+<generatorID>59D91F12-A762-7128-0132-E24E8C337992</generatorID>
+<ownerDesignName>Ejemplo clase 1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>75</dataTypeSize>
+<ownDataTypeParameters>75,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apellido" id="C7956E39-78C4-AAF0-B291-DC0E8195E930">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-01 21:17:45 UTC</createdTime>
+<generatorID>4A983BBD-6FD8-A9ED-7AC1-E3C96E9DD7EC</generatorID>
+<ownerDesignName>Ejemplo clase 1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>75</dataTypeSize>
+<ownDataTypeParameters>75,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefono" id="786CBA08-865D-D8AF-ECE5-152CE317E7CB">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-01 21:17:45 UTC</createdTime>
+<generatorID>2A47BEF2-7FED-A73A-0A89-D35EF0445D83</generatorID>
+<ownerDesignName>Ejemplo clase 1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Direccion" id="06B6852F-9BD9-4D50-3F1E-C49ACE55F020">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-01 21:17:45 UTC</createdTime>
+<generatorID>C78936A8-5458-B114-63C1-5692A0A70390</generatorID>
+<ownerDesignName>Ejemplo clase 1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_nacimiento" id="7B56D7E5-7429-5EB0-9F57-28CC41ADC133">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-01 21:17:45 UTC</createdTime>
+<generatorID>1F7B4C18-EF93-53C3-9B0D-F308A6CDA158</generatorID>
+<ownerDesignName>Ejemplo clase 1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8A236517-ED36-5CBB-7719-AC792B2DF3D7" name="Alumno_PK">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-01 21:17:45 UTC</createdTime>
+<generatorID>105F88BA-16DB-0318-E688-6AAB140730EA</generatorID>
+<ownerDesignName>Ejemplo clase 1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7BC5866-6B92-749B-9C1E-FA4F5A7A80E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

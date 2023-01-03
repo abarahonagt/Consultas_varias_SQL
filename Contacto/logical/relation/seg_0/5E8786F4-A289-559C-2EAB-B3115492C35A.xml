@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Contacto-correo_electronico" directorySegmentName="seg_0" id="5E8786F4-A289-559C-2EAB-B3115492C35A">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 05:08:45 UTC</createdTime>
+<ownerDesignName>Contacto</ownerDesignName>
+<engineerTo>
+<item key="422219D3-097B-854B-05DA-64393DF0B5C2" value="true"/>
+</engineerTo>
+<sourcePk>EFE6ABB5-6233-3962-1CD7-7F3232356159</sourcePk>
+<targetPk>3BC9256B-1678-0E45-EE9B-043A464C58EC</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>4066CCC8-1A9E-13A1-A509-E327C1A05E33</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>59AD5A7B-8E00-E8DD-294C-23BDAF24ABFF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Orden de comprav2" directorySegmentName="seg_0" id="A2EE720D-1EE8-4A1C-191C-F578B5D1B523">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 06:30:15 UTC</createdTime>
+<ownerDesignName>Producto-cliente-proveedor</ownerDesignName>
+<engineerTo>
+<item key="9786B403-1FEF-DDB1-7414-2098C2BAC1AF" value="true"/>
+</engineerTo>
+<sourcePk>C08E6C01-C599-22E9-C03F-D5A4B22907BA</sourcePk>
+<targetPk>F554F6CB-5BC2-B892-5A93-2201DE57BE58</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>93315B21-458C-6418-E578-6568B0FD5E91</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6834E85F-C8D3-F9EB-4DAC-FC3B955A4D68</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

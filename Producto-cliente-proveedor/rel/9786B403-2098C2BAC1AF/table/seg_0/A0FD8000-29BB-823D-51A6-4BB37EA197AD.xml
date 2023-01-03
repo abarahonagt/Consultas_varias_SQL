@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A0FD8000-29BB-823D-51A6-4BB37EA197AD" name="Cliente">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 06:25:49 UTC</createdTime>
+<generatorID>5692C1E2-E0A6-D6D8-6B22-A7C6B6181929</generatorID>
+<ownerDesignName>Producto-cliente-proveedor</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Codigo_cliente" id="B4441B3A-69AF-BD5E-D683-90352D531344">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 06:25:49 UTC</createdTime>
+<generatorID>39B14276-A670-76B3-268D-AE0D67F77887</generatorID>
+<ownerDesignName>Producto-cliente-proveedor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NIT" id="815D88EB-7201-096D-8E2D-5C38C95CC124">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 06:25:49 UTC</createdTime>
+<generatorID>E1314860-9CA4-90BE-B484-CB1B911EEEFD</generatorID>
+<ownerDesignName>Producto-cliente-proveedor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="A3B08497-4B84-BF5F-F785-057EC66A3B39">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 06:25:49 UTC</createdTime>
+<generatorID>AC592223-CF15-345F-6DD4-9E41B62D0343</generatorID>
+<ownerDesignName>Producto-cliente-proveedor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apellido" id="0E012D04-8DE9-56F5-5EDE-507764E74C53">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 06:25:49 UTC</createdTime>
+<generatorID>C973CA40-CEAA-8459-97B4-DE98DAF1BDC0</generatorID>
+<ownerDesignName>Producto-cliente-proveedor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Direccion" id="E3F853D2-7043-E26D-1149-98ECA0CF0C0A">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 06:25:49 UTC</createdTime>
+<generatorID>572407D7-005F-1262-25F8-BE6C92D01C81</generatorID>
+<ownerDesignName>Producto-cliente-proveedor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nacimiento" id="C2D214D2-0443-CEE7-126D-08A2065D6F74">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 06:25:49 UTC</createdTime>
+<generatorID>A54D5D5C-1A6A-3388-1C72-92DB2D327DA9</generatorID>
+<ownerDesignName>Producto-cliente-proveedor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AE9E376A-BDF0-4A5F-ECA5-2865C043C6FC" name="Cliente_PK">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 06:25:49 UTC</createdTime>
+<generatorID>482B5CAA-9EAB-B9F4-09EF-9109BCCF33E2</generatorID>
+<ownerDesignName>Producto-cliente-proveedor</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4441B3A-69AF-BD5E-D683-90352D531344"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

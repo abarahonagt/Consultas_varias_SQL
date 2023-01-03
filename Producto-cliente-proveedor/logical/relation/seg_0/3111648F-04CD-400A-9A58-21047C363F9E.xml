@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Orden de compra" directorySegmentName="seg_0" id="3111648F-04CD-400A-9A58-21047C363F9E">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 06:29:35 UTC</createdTime>
+<ownerDesignName>Producto-cliente-proveedor</ownerDesignName>
+<engineerTo>
+<item key="9786B403-1FEF-DDB1-7414-2098C2BAC1AF" value="true"/>
+</engineerTo>
+<sourcePk>BEFC0D41-6373-C754-0341-7592D9920494</sourcePk>
+<targetPk>C08E6C01-C599-22E9-C03F-D5A4B22907BA</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>D982A2D8-30F2-FBE8-5B8C-A2D746E8DF12</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>93315B21-458C-6418-E578-6568B0FD5E91</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

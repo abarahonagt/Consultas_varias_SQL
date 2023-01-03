@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3F99083B-05E7-6F5C-17E2-A511FC2D56E8" name="Telefono">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 05:11:22 UTC</createdTime>
+<generatorID>2F082FFF-EE7F-C589-782B-D34F806FDCCC</generatorID>
+<ownerDesignName>Contacto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_telefono" id="976354BE-50E7-FDC7-4C75-FD5ECD065E25">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 05:11:22 UTC</createdTime>
+<generatorID>3867D181-CA56-D60A-C0B4-5202E3082480</generatorID>
+<ownerDesignName>Contacto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_contacto" id="02B4B7D3-6E92-1642-82B1-E551A132F1D1">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 05:11:22 UTC</createdTime>
+<generatorID>1583D182-6033-A4C0-2CA9-6A0F35D661ED</generatorID>
+<ownerDesignName>Contacto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipo_telefono_ID_tipo_telefono" id="41D35669-0CA5-596B-8BD6-E15382FC3D0C">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 05:11:22 UTC</createdTime>
+<generatorID>D2C8DA59-B80B-24EB-B259-A25162434BA1</generatorID>
+<ownerDesignName>Contacto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C7E03381-0FC4-0CAB-51DD-DA7C89151067" referredColumn="0A988CE0-5E9A-77F9-CF49-1141F9B2E1E7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F8087643-C9F4-4A29-6BEA-59800C98118C" name="Telefono_PK">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 05:11:22 UTC</createdTime>
+<generatorID>727B5FB0-E568-274F-F97E-06E4D968FB8F</generatorID>
+<ownerDesignName>Contacto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="976354BE-50E7-FDC7-4C75-FD5ECD065E25"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D14BDDC5-8149-FD02-CF40-2E3B038685E4" name="Telefono_Tipo_telefono_FK">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 05:11:22 UTC</createdTime>
+<generatorID>541C4366-1A76-82F9-227A-789D3D14ADF5</generatorID>
+<ownerDesignName>Contacto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41D35669-0CA5-596B-8BD6-E15382FC3D0C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

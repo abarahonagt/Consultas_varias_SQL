@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="80763508-CD17-0968-10CF-D5D04967BEF5" name="Curso">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-01 21:17:45 UTC</createdTime>
+<generatorID>E812F2E8-B721-002C-D094-BB6311198968</generatorID>
+<ownerDesignName>Ejemplo clase 1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Curso" id="7C91F7ED-5D75-A621-B565-0C9511F9C54F">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-01 21:17:45 UTC</createdTime>
+<generatorID>97CC5A47-6033-5535-B375-D01DFD6DAB03</generatorID>
+<ownerDesignName>Ejemplo clase 1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_curso" id="1F312D7D-6B88-BC32-D0FD-C32BB34076CB">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-01 21:17:45 UTC</createdTime>
+<generatorID>D9952EE4-CBD5-6B98-CF33-A57FE26F4370</generatorID>
+<ownerDesignName>Ejemplo clase 1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>75</dataTypeSize>
+<ownDataTypeParameters>75,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_Matricula" id="69407372-57B4-084C-1C6A-77A7B1FC02A0">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-01 21:25:34 UTC</createdTime>
+<ownerDesignName>Ejemplo clase 1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4243DDDA-7545-84C5-74BB-92B9C60CC057" name="Curso_PK">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-01 21:17:45 UTC</createdTime>
+<generatorID>2B9F3C99-0B57-2F6B-F24C-3F3D22383474</generatorID>
+<ownerDesignName>Ejemplo clase 1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C91F7ED-5D75-A621-B565-0C9511F9C54F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="060E7A0E-ABD8-DAF9-BC01-8CBC1DDDF9AF" name="Alumno" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="87DA9DD1-A0C5-BD49-73A8-90AD4768C307" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="9DFD5AA2-C6A5-BD24-FF44-F2DF5D8DB9F6" name="Carrera" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="87DA9DD1-A0C5-BD49-73A8-90AD4768C307" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="E812F2E8-B721-002C-D094-BB6311198968" name="Curso" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="87DA9DD1-A0C5-BD49-73A8-90AD4768C307" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="1B00BEC9-72FE-0040-635B-E5774BD81682" name="Alumno_Carrera" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="87DA9DD1-A0C5-BD49-73A8-90AD4768C307" propertySourceId="060E7A0E-ABD8-DAF9-BC01-8CBC1DDDF9AF" propertyTargetId="9DFD5AA2-C6A5-BD24-FF44-F2DF5D8DB9F6"/>
+   <object objectType="Relation" objectID="74369687-B9F5-5C46-53F9-E91AA21940BD" name="Matricula" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="87DA9DD1-A0C5-BD49-73A8-90AD4768C307" propertySourceId="060E7A0E-ABD8-DAF9-BC01-8CBC1DDDF9AF" propertyTargetId="E812F2E8-B721-002C-D094-BB6311198968"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

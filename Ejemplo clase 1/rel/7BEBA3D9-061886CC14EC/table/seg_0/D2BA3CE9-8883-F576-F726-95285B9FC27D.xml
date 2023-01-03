@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D2BA3CE9-8883-F576-F726-95285B9FC27D" name="Alumno_Carrera">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-01 21:17:45 UTC</createdTime>
+<ownerDesignName>Ejemplo clase 1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Alumno_ID_Alumno" id="90FEE5D0-2FB6-3845-9D73-B11F2F5A2BF6">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-01 21:17:45 UTC</createdTime>
+<ownerDesignName>Ejemplo clase 1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="49E58B80-7441-457D-B04B-51709442C011" referredColumn="F7BC5866-6B92-749B-9C1E-FA4F5A7A80E9"/>
+</associations>
+</Column>
+<Column name="Carrera_ID_Carrera" id="BACD60CF-6BEF-CD55-6D31-AB57F28CDB44">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-01 21:17:45 UTC</createdTime>
+<ownerDesignName>Ejemplo clase 1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7E5439E7-E0E9-14A6-D8D2-D9A4EB6F8CDB" referredColumn="EAC9E2AC-A80C-E224-C99F-9C0054D9DF64"/>
+</associations>
+</Column>
+<Column name="ID_Alumno_Carrera" id="0760CA84-7192-7D07-09F8-176669C6B66E">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-01 21:17:45 UTC</createdTime>
+<generatorID>88A5A8F0-6C53-0945-70BF-343A9C6A283D</generatorID>
+<ownerDesignName>Ejemplo clase 1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CD725BE1-C659-DD98-E47E-95AAA9CC7CAA" name="Alumno_Carrera_PK">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-01 21:17:45 UTC</createdTime>
+<ownerDesignName>Ejemplo clase 1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0760CA84-7192-7D07-09F8-176669C6B66E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="33867B38-45AA-1EFF-6920-2C8786B51280" name="Alumno_Carrera_Alumno_FK">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-01 21:17:45 UTC</createdTime>
+<generatorID>1B00BEC9-72FE-0040-635B-E5774BD81682</generatorID>
+<ownerDesignName>Ejemplo clase 1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90FEE5D0-2FB6-3845-9D73-B11F2F5A2BF6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E1787977-A7CC-19B2-C636-8EA026A467C7" name="Alumno_Carrera_Carrera_FK">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-01 21:17:45 UTC</createdTime>
+<generatorID>1B00BEC9-72FE-0040-635B-E5774BD81682</generatorID>
+<ownerDesignName>Ejemplo clase 1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BACD60CF-6BEF-CD55-6D31-AB57F28CDB44"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

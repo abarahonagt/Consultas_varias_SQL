@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="96717A67-CE74-82D8-66CD-A10BCD1D9FB3" name="Tipo_correo">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 05:11:22 UTC</createdTime>
+<generatorID>3CF6165E-64D7-33CA-7BCE-5F01A36F756A</generatorID>
+<ownerDesignName>Contacto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_tipo_correo" id="D3ECE48C-38A4-0154-38FF-4FA9147892D1">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 05:11:22 UTC</createdTime>
+<generatorID>960791DD-1D21-2683-AF42-7482A87C069F</generatorID>
+<ownerDesignName>Contacto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="c_personal" id="FC0E1C7F-01A2-A9B0-9310-A79E2230D210">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 05:11:22 UTC</createdTime>
+<generatorID>655537B0-941C-0A23-9355-7DA53CEE5B66</generatorID>
+<ownerDesignName>Contacto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="c_trabajo" id="8BA5B8D4-6C66-9FE1-CD2A-79982A3547E7">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 05:11:22 UTC</createdTime>
+<generatorID>D3BC3766-647F-FE4D-83BA-02E285A51197</generatorID>
+<ownerDesignName>Contacto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="c_otro" id="DC3FD302-B9F4-5878-9562-4DFA9BD9C9DD">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 05:11:22 UTC</createdTime>
+<generatorID>4B05C935-18C1-36EE-4EB0-2C9841BBCFD4</generatorID>
+<ownerDesignName>Contacto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="95E24640-BFB5-5B39-48F4-577C0F11100B" name="Tipo_correo_PK">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 05:11:22 UTC</createdTime>
+<generatorID>1AD8A95E-8AEC-31BD-F715-87FB92E4FB9E</generatorID>
+<ownerDesignName>Contacto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3ECE48C-38A4-0154-38FF-4FA9147892D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

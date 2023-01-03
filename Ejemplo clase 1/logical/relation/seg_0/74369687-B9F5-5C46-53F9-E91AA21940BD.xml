@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Matricula" directorySegmentName="seg_0" id="74369687-B9F5-5C46-53F9-E91AA21940BD">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-01 21:16:45 UTC</createdTime>
+<ownerDesignName>Ejemplo clase 1</ownerDesignName>
+<engineerTo>
+<item key="7BEBA3D9-6E2D-2F32-CF84-061886CC14EC" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>060E7A0E-ABD8-DAF9-BC01-8CBC1DDDF9AF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E812F2E8-B721-002C-D094-BB6311198968</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="ID_Matricula" id="D7EF71CE-21F3-E33F-2002-D7EFA41A406B">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-01 21:16:56 UTC</createdTime>
+<ownerDesignName>Ejemplo clase 1</ownerDesignName>
+<engineerTo>
+<item key="7BEBA3D9-6E2D-2F32-CF84-061886CC14EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

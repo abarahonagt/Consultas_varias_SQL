@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F6CE668B-4AB7-4B8B-3FCB-E73878288691" containerWithKeyObject="F8D7C17D-C317-C55D-EE2F-722A65F63DEE" localFKIndex="B6C9DA8B-865A-A749-5F33-FAC13561DF0A" name="Correo_electronico_Tipo_correo_FK">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 05:11:22 UTC</createdTime>
+<generatorID>466DCC5C-E7C5-4243-A09E-EC928554ACE4</generatorID>
+<ownerDesignName>Contacto</ownerDesignName>
+<referredTableLongName>Tipo_correo</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>96717A67-CE74-82D8-66CD-A10BCD1D9FB3</referredTableID>
+<keyObject>95E24640-BFB5-5B39-48F4-577C0F11100B</keyObject>
+<referredKeyID>95E24640-BFB5-5B39-48F4-577C0F11100B</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID_tipo_correo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

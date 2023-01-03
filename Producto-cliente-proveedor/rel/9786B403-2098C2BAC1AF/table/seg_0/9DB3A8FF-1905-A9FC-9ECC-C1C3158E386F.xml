@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9DB3A8FF-1905-A9FC-9ECC-C1C3158E386F" name="Orden_de_compra">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 06:30:52 UTC</createdTime>
+<ownerDesignName>Producto-cliente-proveedor</ownerDesignName>
+<ordsAlias>orden_de_comprav2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Codigo_OC" id="676FEB49-210E-460F-7A53-0EEA787AB711">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 06:30:52 UTC</createdTime>
+<ownerDesignName>Producto-cliente-proveedor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Codigo_Producto" id="AF921E31-6E71-D929-0912-CF85F12F1EC4">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 06:30:52 UTC</createdTime>
+<ownerDesignName>Producto-cliente-proveedor</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1E1E6DA2-8AC7-124E-C333-151C7CB08B82" referredColumn="B5A15C98-3794-B312-10E8-DA337301DF3D"/>
+</associations>
+</Column>
+<Column name="Codigo Proveedor" id="88793206-5B90-3A59-067A-D51322DF936F">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 06:36:40 UTC</createdTime>
+<ownerDesignName>Producto-cliente-proveedor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6D23C54B-1758-3A5C-957B-D5EB5293874C" referredColumn="7058D5C2-4DAB-C029-F492-15459627DBF8"/>
+</associations>
+</Column>
+<Column name="Cantidad" id="1C454A50-B6B6-59BA-0F0B-CFB527229B97">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 06:36:16 UTC</createdTime>
+<ownerDesignName>Producto-cliente-proveedor</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha" id="2F4E4828-BE74-EC7E-631E-F454DB2F842D">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 06:37:06 UTC</createdTime>
+<ownerDesignName>Producto-cliente-proveedor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CBEAEE1D-DC9F-A35F-8317-A014CB046FD2" name="Orden_de_comprav2_PK">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 06:30:52 UTC</createdTime>
+<ownerDesignName>Producto-cliente-proveedor</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="676FEB49-210E-460F-7A53-0EEA787AB711"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C6AE0E14-EE25-8594-9A8E-A537D76F692F" name="Orden_de_compra_Producto_FK">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 06:30:52 UTC</createdTime>
+<generatorID>A2EE720D-1EE8-4A1C-191C-F578B5D1B523</generatorID>
+<ownerDesignName>Producto-cliente-proveedor</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF921E31-6E71-D929-0912-CF85F12F1EC4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="732550B8-C383-ADCA-31E5-80860C61A2EF" name="Orden_de_compra_Proveedor_FK">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 06:39:30 UTC</createdTime>
+<ownerDesignName>Producto-cliente-proveedor</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88793206-5B90-3A59-067A-D51322DF936F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

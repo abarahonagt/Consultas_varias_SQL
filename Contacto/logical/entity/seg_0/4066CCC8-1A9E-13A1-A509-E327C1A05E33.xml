@@ -1,0 +1,226 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4066CCC8-1A9E-13A1-A509-E327C1A05E33" name="Contacto">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 04:10:49 UTC</createdTime>
+<ownerDesignName>Contacto</ownerDesignName>
+<engineerTo>
+<item key="422219D3-097B-854B-05DA-64393DF0B5C2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_contacto" id="425B7C23-C6C1-2D00-A080-6847DDD52467">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 04:11:10 UTC</createdTime>
+<ownerDesignName>Contacto</ownerDesignName>
+<engineerTo>
+<item key="422219D3-097B-854B-05DA-64393DF0B5C2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Primer_nombre" id="1B0B5A54-F6A2-A7A1-AABE-FEF9532C7B5D">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 04:11:40 UTC</createdTime>
+<ownerDesignName>Contacto</ownerDesignName>
+<engineerTo>
+<item key="422219D3-097B-854B-05DA-64393DF0B5C2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Segundo_nombre" id="7427A20B-A802-2E4C-89F4-D07015A4A81F">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 04:12:10 UTC</createdTime>
+<ownerDesignName>Contacto</ownerDesignName>
+<engineerTo>
+<item key="422219D3-097B-854B-05DA-64393DF0B5C2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Primer_apellido" id="EFD33EC0-E5AC-5863-B288-A779EB5D24C3">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 04:12:26 UTC</createdTime>
+<ownerDesignName>Contacto</ownerDesignName>
+<engineerTo>
+<item key="422219D3-097B-854B-05DA-64393DF0B5C2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Segundo_apellido" id="52BF79FA-7462-B08C-C12C-87410C3BF6B8">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 04:12:47 UTC</createdTime>
+<ownerDesignName>Contacto</ownerDesignName>
+<engineerTo>
+<item key="422219D3-097B-854B-05DA-64393DF0B5C2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sufijo" id="9E150DE3-05B4-4DE1-5231-EF414EBF3A3D">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 04:13:06 UTC</createdTime>
+<ownerDesignName>Contacto</ownerDesignName>
+<engineerTo>
+<item key="422219D3-097B-854B-05DA-64393DF0B5C2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Alias" id="615A49BD-4DD9-B52D-44EA-E9B5AD89B66A">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 04:13:39 UTC</createdTime>
+<ownerDesignName>Contacto</ownerDesignName>
+<engineerTo>
+<item key="422219D3-097B-854B-05DA-64393DF0B5C2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Info_trabajo" id="A6C13EF5-1C0E-0354-4CCB-750E17F8F5D3">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 04:33:58 UTC</createdTime>
+<ownerDesignName>Contacto</ownerDesignName>
+<engineerTo>
+<item key="422219D3-097B-854B-05DA-64393DF0B5C2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>75</dataTypeSize>
+<ownDataTypeParameters>75,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Direccion" id="7BBF61F9-0820-5FA7-B1E3-E8B5B264D582">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 04:34:54 UTC</createdTime>
+<ownerDesignName>Contacto</ownerDesignName>
+<engineerTo>
+<item key="422219D3-097B-854B-05DA-64393DF0B5C2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha_importante" id="2485CB8A-8289-D8B1-B54E-EAFD86540D6B">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 04:35:13 UTC</createdTime>
+<ownerDesignName>Contacto</ownerDesignName>
+<engineerTo>
+<item key="422219D3-097B-854B-05DA-64393DF0B5C2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pagina_web" id="5EF2F2C8-82F9-665B-4AED-F8F05D9F201F">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 04:35:38 UTC</createdTime>
+<ownerDesignName>Contacto</ownerDesignName>
+<engineerTo>
+<item key="422219D3-097B-854B-05DA-64393DF0B5C2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Notas" id="A43B86D5-5A28-3EFA-2F9A-1DB650714DD5">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 04:36:04 UTC</createdTime>
+<ownerDesignName>Contacto</ownerDesignName>
+<engineerTo>
+<item key="422219D3-097B-854B-05DA-64393DF0B5C2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_telefono" id="5C5832D1-E20C-62C4-2DAB-C25F7B23051D">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 05:06:28 UTC</createdTime>
+<generatorID>661F756F-2CE6-D652-A8C9-8835E1962E3A</generatorID>
+<ownerDesignName>Contacto</ownerDesignName>
+<engineerTo>
+<item key="422219D3-097B-854B-05DA-64393DF0B5C2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>3867D181-CA56-D60A-C0B4-5202E3082480</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_correo" id="D12705E4-56B0-F2E0-6CC2-ED824D0D4E29">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 05:09:09 UTC</createdTime>
+<generatorID>5E8786F4-A289-559C-2EAB-B3115492C35A</generatorID>
+<ownerDesignName>Contacto</ownerDesignName>
+<engineerTo>
+<item key="422219D3-097B-854B-05DA-64393DF0B5C2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>A3BD7C97-7E8B-A383-72A4-E93356C529C9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EFE6ABB5-6233-3962-1CD7-7F3232356159" name="Contacto PK">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 04:11:36 UTC</createdTime>
+<ownerDesignName>Contacto</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="422219D3-097B-854B-05DA-64393DF0B5C2" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>425B7C23-C6C1-2D00-A080-6847DDD52467</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

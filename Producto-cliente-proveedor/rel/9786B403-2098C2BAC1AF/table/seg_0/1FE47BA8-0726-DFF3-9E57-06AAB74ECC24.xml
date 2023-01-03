@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1FE47BA8-0726-DFF3-9E57-06AAB74ECC24" name="Orden_de_Venta">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 06:25:49 UTC</createdTime>
+<ownerDesignName>Producto-cliente-proveedor</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Cliente_Codigo_cliente" id="89335217-8206-EC06-B5FE-F36D5CC4995C">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 06:25:49 UTC</createdTime>
+<ownerDesignName>Producto-cliente-proveedor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AAD37C05-36E3-6200-D0B2-D380A6FE4B91" referredColumn="B4441B3A-69AF-BD5E-D683-90352D531344"/>
+</associations>
+</Column>
+<Column name="Producto_Codigo_Producto" id="B191B0EB-709B-62B8-B491-3BE55434C7F5">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 06:25:49 UTC</createdTime>
+<ownerDesignName>Producto-cliente-proveedor</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F7371808-7C53-C96C-124A-B0BE1224ABBD" referredColumn="B5A15C98-3794-B312-10E8-DA337301DF3D"/>
+</associations>
+</Column>
+<Column name="Codigo_OV" id="6B53F9E1-2FE4-D1E6-FB5B-EA8A123C5DD9">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 06:25:49 UTC</createdTime>
+<generatorID>F9CA66F8-2F13-BCC6-C6B7-2CAF51C36952</generatorID>
+<ownerDesignName>Producto-cliente-proveedor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="Fecha" id="99639C4A-BF73-E4CF-2A32-6DADBD2E5A9C">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 06:25:49 UTC</createdTime>
+<generatorID>244F0FE0-8537-14F3-13EA-18CA2A829C3D</generatorID>
+<ownerDesignName>Producto-cliente-proveedor</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+<Column name="Total" id="5B97584F-227A-C783-5F58-CBF971A54711">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 06:25:49 UTC</createdTime>
+<generatorID>C5C382CA-6515-47A9-FC31-C5C75F1A509C</generatorID>
+<ownerDesignName>Producto-cliente-proveedor</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FE9FD902-7AA2-2364-65B5-B17838BC3367" name="Orden_de_Venta_PK">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 06:25:49 UTC</createdTime>
+<ownerDesignName>Producto-cliente-proveedor</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89335217-8206-EC06-B5FE-F36D5CC4995C"/>
+<colUsage columnID="B191B0EB-709B-62B8-B491-3BE55434C7F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EC8335C3-3856-45CA-2C1E-376FDD3B4410" name="Orden_de_Venta_Cliente_FK">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 06:25:49 UTC</createdTime>
+<generatorID>2CBF8478-DAA3-0672-B4BD-8B3485190660</generatorID>
+<ownerDesignName>Producto-cliente-proveedor</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89335217-8206-EC06-B5FE-F36D5CC4995C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D10EC5B5-0E9D-AC36-DC85-E22E1D4849E7" name="Orden_de_Venta_Producto_FK">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 06:25:49 UTC</createdTime>
+<generatorID>2CBF8478-DAA3-0672-B4BD-8B3485190660</generatorID>
+<ownerDesignName>Producto-cliente-proveedor</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B191B0EB-709B-62B8-B491-3BE55434C7F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

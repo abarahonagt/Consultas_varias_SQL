@@ -1,0 +1,230 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4AEDABAA-5ACD-573B-2445-DE23F5ED1905" name="Contacto">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 05:11:22 UTC</createdTime>
+<generatorID>4066CCC8-1A9E-13A1-A509-E327C1A05E33</generatorID>
+<ownerDesignName>Contacto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_contacto" id="FA07AF35-93EF-B1DF-056E-73121B82EDB7">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 05:11:22 UTC</createdTime>
+<generatorID>425B7C23-C6C1-2D00-A080-6847DDD52467</generatorID>
+<ownerDesignName>Contacto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Primer_nombre" id="A6213E9A-97AA-702B-48E0-08A8DF5973F3">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 05:11:22 UTC</createdTime>
+<generatorID>1B0B5A54-F6A2-A7A1-AABE-FEF9532C7B5D</generatorID>
+<ownerDesignName>Contacto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Segundo_nombre" id="064735E8-4C15-E73D-091F-75EA99D3B73E">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 05:11:22 UTC</createdTime>
+<generatorID>7427A20B-A802-2E4C-89F4-D07015A4A81F</generatorID>
+<ownerDesignName>Contacto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Primer_apellido" id="5EF1D3DD-8531-CBAA-0496-72455BED5AE2">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 05:11:22 UTC</createdTime>
+<generatorID>EFD33EC0-E5AC-5863-B288-A779EB5D24C3</generatorID>
+<ownerDesignName>Contacto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Segundo_apellido" id="0D8BE656-C690-32C5-02A3-3A4CC75E3878">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 05:11:22 UTC</createdTime>
+<generatorID>52BF79FA-7462-B08C-C12C-87410C3BF6B8</generatorID>
+<ownerDesignName>Contacto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sufijo" id="22B5A278-F64F-55D6-04E6-BC3BB7E1F03A">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 05:11:22 UTC</createdTime>
+<generatorID>9E150DE3-05B4-4DE1-5231-EF414EBF3A3D</generatorID>
+<ownerDesignName>Contacto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Alias" id="A1331B3A-994C-F595-4CF4-B2E4316D9C8F">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 05:11:22 UTC</createdTime>
+<generatorID>615A49BD-4DD9-B52D-44EA-E9B5AD89B66A</generatorID>
+<ownerDesignName>Contacto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Info_trabajo" id="FEF16A09-08D2-BB0E-59A7-66F7FA51DF1A">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 05:11:22 UTC</createdTime>
+<generatorID>A6C13EF5-1C0E-0354-4CCB-750E17F8F5D3</generatorID>
+<ownerDesignName>Contacto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>75</dataTypeSize>
+<ownDataTypeParameters>75,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Direccion" id="3A1FD4F5-EA1A-6283-E75A-8F3CF5EFB3A5">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 05:11:22 UTC</createdTime>
+<generatorID>7BBF61F9-0820-5FA7-B1E3-E8B5B264D582</generatorID>
+<ownerDesignName>Contacto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_importante" id="9A645EE1-FFEC-40B9-C082-F1CB62A5A3E0">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 05:11:22 UTC</createdTime>
+<generatorID>2485CB8A-8289-D8B1-B54E-EAFD86540D6B</generatorID>
+<ownerDesignName>Contacto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pagina_web" id="FDB836CB-F304-7578-82FF-579B7D78606E">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 05:11:22 UTC</createdTime>
+<generatorID>5EF2F2C8-82F9-665B-4AED-F8F05D9F201F</generatorID>
+<ownerDesignName>Contacto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Notas" id="EB4579AE-0680-DE13-4243-DB0A64FDEA92">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 05:11:22 UTC</createdTime>
+<generatorID>A43B86D5-5A28-3EFA-2F9A-1DB650714DD5</generatorID>
+<ownerDesignName>Contacto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefono_ID_telefono" id="C6D9136B-8EAB-7691-B22C-9BAB47E77EF9">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 05:11:22 UTC</createdTime>
+<generatorID>5C5832D1-E20C-62C4-2DAB-C25F7B23051D</generatorID>
+<ownerDesignName>Contacto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B545CF5B-BE6D-7FFC-AF06-1BB27F99A7B8" referredColumn="976354BE-50E7-FDC7-4C75-FD5ECD065E25"/>
+</associations>
+</Column>
+<Column name="Correo_electronico_ID_correo" id="205DABF4-F7B8-1AB0-F05F-2F81FB693240">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 05:11:22 UTC</createdTime>
+<generatorID>D12705E4-56B0-F2E0-6CC2-ED824D0D4E29</generatorID>
+<ownerDesignName>Contacto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="950CBAD7-1C3D-93FD-3FE2-378006084C1F" referredColumn="8BE50B6B-7BF6-8239-A9F7-F07AF40D48D2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0F5E20B1-5728-F4CA-1C7E-1731D29D7C0B" name="Contacto_PK">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 05:11:22 UTC</createdTime>
+<generatorID>EFE6ABB5-6233-3962-1CD7-7F3232356159</generatorID>
+<ownerDesignName>Contacto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA07AF35-93EF-B1DF-056E-73121B82EDB7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1F6751C7-87C4-516C-5A17-D967F31FC76F" name="Contacto_Correo_electronico_FK">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 05:11:22 UTC</createdTime>
+<generatorID>5E8786F4-A289-559C-2EAB-B3115492C35A</generatorID>
+<ownerDesignName>Contacto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="205DABF4-F7B8-1AB0-F05F-2F81FB693240"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="515A9832-180C-98C2-D896-A9A69252DDBE" name="Contacto_Telefono_FK">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 05:11:22 UTC</createdTime>
+<generatorID>661F756F-2CE6-D652-A8C9-8835E1962E3A</generatorID>
+<ownerDesignName>Contacto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6D9136B-8EAB-7691-B22C-9BAB47E77EF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

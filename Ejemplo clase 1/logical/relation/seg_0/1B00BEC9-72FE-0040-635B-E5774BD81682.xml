@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Alumno_Carrera" directorySegmentName="seg_0" id="1B00BEC9-72FE-0040-635B-E5774BD81682">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-01 21:16:03 UTC</createdTime>
+<ownerDesignName>Ejemplo clase 1</ownerDesignName>
+<engineerTo>
+<item key="7BEBA3D9-6E2D-2F32-CF84-061886CC14EC" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>060E7A0E-ABD8-DAF9-BC01-8CBC1DDDF9AF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9DFD5AA2-C6A5-BD24-FF44-F2DF5D8DB9F6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="ID_Alumno_Carrera" id="88A5A8F0-6C53-0945-70BF-343A9C6A283D">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-01 21:16:16 UTC</createdTime>
+<ownerDesignName>Ejemplo clase 1</ownerDesignName>
+<engineerTo>
+<item key="7BEBA3D9-6E2D-2F32-CF84-061886CC14EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

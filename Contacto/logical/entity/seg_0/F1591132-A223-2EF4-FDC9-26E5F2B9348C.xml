@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F1591132-A223-2EF4-FDC9-26E5F2B9348C" name="Tipo_telefono">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 05:02:00 UTC</createdTime>
+<ownerDesignName>Contacto</ownerDesignName>
+<engineerTo>
+<item key="422219D3-097B-854B-05DA-64393DF0B5C2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_tipo_telefono" id="0B784537-4B0A-B094-EE2D-142D7E27E715">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 05:02:31 UTC</createdTime>
+<ownerDesignName>Contacto</ownerDesignName>
+<engineerTo>
+<item key="422219D3-097B-854B-05DA-64393DF0B5C2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="T_personal" id="C63928F9-54F2-79DD-274C-857E4AF6B050">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 05:02:13 UTC</createdTime>
+<ownerDesignName>Contacto</ownerDesignName>
+<engineerTo>
+<item key="422219D3-097B-854B-05DA-64393DF0B5C2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="T_trabajo" id="78655C1D-B159-23AE-2B35-D92B9765760E">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 05:02:48 UTC</createdTime>
+<ownerDesignName>Contacto</ownerDesignName>
+<engineerTo>
+<item key="422219D3-097B-854B-05DA-64393DF0B5C2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="T_casa" id="CD854C75-9F66-F27A-2F07-0E76E6F0DF3A">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 05:03:00 UTC</createdTime>
+<ownerDesignName>Contacto</ownerDesignName>
+<engineerTo>
+<item key="422219D3-097B-854B-05DA-64393DF0B5C2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fax_trabajo" id="5C3D8E7C-1AE4-377E-A68B-739199CC283D">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 05:09:50 UTC</createdTime>
+<ownerDesignName>Contacto</ownerDesignName>
+<engineerTo>
+<item key="422219D3-097B-854B-05DA-64393DF0B5C2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fax_privado" id="4CAA5831-B5E4-FF9E-E42A-1361B4B28E32">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 05:10:01 UTC</createdTime>
+<ownerDesignName>Contacto</ownerDesignName>
+<engineerTo>
+<item key="422219D3-097B-854B-05DA-64393DF0B5C2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Otro" id="4C43BC40-B8B4-6004-EBC0-D09DB67A2915">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 05:10:15 UTC</createdTime>
+<ownerDesignName>Contacto</ownerDesignName>
+<engineerTo>
+<item key="422219D3-097B-854B-05DA-64393DF0B5C2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E71E16F3-B9B6-6B70-CC80-A84759F7EDCD" name="Tipo_telefono PK">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 05:02:46 UTC</createdTime>
+<ownerDesignName>Contacto</ownerDesignName>
+<engineerTo>
+<item key="422219D3-097B-854B-05DA-64393DF0B5C2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0B784537-4B0A-B094-EE2D-142D7E27E715</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

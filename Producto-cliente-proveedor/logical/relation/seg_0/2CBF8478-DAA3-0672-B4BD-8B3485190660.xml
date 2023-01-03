@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Orden de Venta" directorySegmentName="seg_0" id="2CBF8478-DAA3-0672-B4BD-8B3485190660">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 06:21:39 UTC</createdTime>
+<ownerDesignName>Producto-cliente-proveedor</ownerDesignName>
+<engineerTo>
+<item key="9786B403-1FEF-DDB1-7414-2098C2BAC1AF" value="true"/>
+</engineerTo>
+<sourcePk>482B5CAA-9EAB-B9F4-09EF-9109BCCF33E2</sourcePk>
+<targetPk>F554F6CB-5BC2-B892-5A93-2201DE57BE58</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>5692C1E2-E0A6-D6D8-6B22-A7C6B6181929</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6834E85F-C8D3-F9EB-4DAC-FC3B955A4D68</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="Codigo OV" id="F9CA66F8-2F13-BCC6-C6B7-2CAF51C36952">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 06:22:56 UTC</createdTime>
+<ownerDesignName>Producto-cliente-proveedor</ownerDesignName>
+<engineerTo>
+<item key="9786B403-1FEF-DDB1-7414-2098C2BAC1AF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</attribute>
+<attribute name="Fecha" id="244F0FE0-8537-14F3-13EA-18CA2A829C3D">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 06:23:23 UTC</createdTime>
+<ownerDesignName>Producto-cliente-proveedor</ownerDesignName>
+<engineerTo>
+<item key="9786B403-1FEF-DDB1-7414-2098C2BAC1AF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="Total" id="C5C382CA-6515-47A9-FC31-C5C75F1A509C">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 06:23:40 UTC</createdTime>
+<ownerDesignName>Producto-cliente-proveedor</ownerDesignName>
+<engineerTo>
+<item key="9786B403-1FEF-DDB1-7414-2098C2BAC1AF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

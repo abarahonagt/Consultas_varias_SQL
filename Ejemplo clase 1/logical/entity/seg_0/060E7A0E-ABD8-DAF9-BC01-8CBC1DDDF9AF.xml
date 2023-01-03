@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="060E7A0E-ABD8-DAF9-BC01-8CBC1DDDF9AF" name="Alumno">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-01 20:54:52 UTC</createdTime>
+<ownerDesignName>Ejemplo clase 1</ownerDesignName>
+<engineerTo>
+<item key="7BEBA3D9-6E2D-2F32-CF84-061886CC14EC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Alumno" id="7B567C64-9D13-2527-E7AF-98FCBA364065">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-01 20:56:36 UTC</createdTime>
+<ownerDesignName>Ejemplo clase 1</ownerDesignName>
+<engineerTo>
+<item key="7BEBA3D9-6E2D-2F32-CF84-061886CC14EC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="59D91F12-A762-7128-0132-E24E8C337992">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-01 20:59:16 UTC</createdTime>
+<ownerDesignName>Ejemplo clase 1</ownerDesignName>
+<engineerTo>
+<item key="7BEBA3D9-6E2D-2F32-CF84-061886CC14EC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>75</dataTypeSize>
+<ownDataTypeParameters>75,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Apellido" id="4A983BBD-6FD8-A9ED-7AC1-E3C96E9DD7EC">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-01 20:59:50 UTC</createdTime>
+<ownerDesignName>Ejemplo clase 1</ownerDesignName>
+<engineerTo>
+<item key="7BEBA3D9-6E2D-2F32-CF84-061886CC14EC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>75</dataTypeSize>
+<ownDataTypeParameters>75,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefono" id="2A47BEF2-7FED-A73A-0A89-D35EF0445D83">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-01 21:00:09 UTC</createdTime>
+<ownerDesignName>Ejemplo clase 1</ownerDesignName>
+<engineerTo>
+<item key="7BEBA3D9-6E2D-2F32-CF84-061886CC14EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Direccion" id="C78936A8-5458-B114-63C1-5692A0A70390">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-01 21:01:00 UTC</createdTime>
+<ownerDesignName>Ejemplo clase 1</ownerDesignName>
+<engineerTo>
+<item key="7BEBA3D9-6E2D-2F32-CF84-061886CC14EC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha_nacimiento" id="1F7B4C18-EF93-53C3-9B0D-F308A6CDA158">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-01 21:03:07 UTC</createdTime>
+<ownerDesignName>Ejemplo clase 1</ownerDesignName>
+<engineerTo>
+<item key="7BEBA3D9-6E2D-2F32-CF84-061886CC14EC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="105F88BA-16DB-0318-E688-6AAB140730EA" name="Alumno PK">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-01 21:02:26 UTC</createdTime>
+<ownerDesignName>Ejemplo clase 1</ownerDesignName>
+<engineerTo>
+<item key="7BEBA3D9-6E2D-2F32-CF84-061886CC14EC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7B567C64-9D13-2527-E7AF-98FCBA364065</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

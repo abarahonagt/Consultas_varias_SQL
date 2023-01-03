@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="943F1F5E-41E2-E462-E05C-CBC8E51CC379" name="Alumno">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 04:47:49 UTC</createdTime>
+<ownerDesignName>Entidad_alumno</ownerDesignName>
+<engineerTo>
+<item key="489E838B-1DB2-7231-650D-3B4B84782D96" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="No_carnet" id="7DECDA48-007A-B2B7-BE52-D1E12D4C99BC">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 04:48:09 UTC</createdTime>
+<ownerDesignName>Entidad_alumno</ownerDesignName>
+<engineerTo>
+<item key="489E838B-1DB2-7231-650D-3B4B84782D96" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Primer Nombre" id="360E69A2-FB03-E06B-69AB-F58C4C5210F5">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 04:48:45 UTC</createdTime>
+<ownerDesignName>Entidad_alumno</ownerDesignName>
+<engineerTo>
+<item key="489E838B-1DB2-7231-650D-3B4B84782D96" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Segundo Nombre" id="884175DE-AF9D-AF04-4377-42ED22E07061">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 04:49:08 UTC</createdTime>
+<ownerDesignName>Entidad_alumno</ownerDesignName>
+<engineerTo>
+<item key="489E838B-1DB2-7231-650D-3B4B84782D96" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Primer Apellido" id="0B0796B9-A408-D36C-FA41-1923B31A0412">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 04:49:24 UTC</createdTime>
+<ownerDesignName>Entidad_alumno</ownerDesignName>
+<engineerTo>
+<item key="489E838B-1DB2-7231-650D-3B4B84782D96" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Segundo Apellido" id="72C661C9-7B70-01AD-BA88-77CBD3463DD2">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 04:49:45 UTC</createdTime>
+<ownerDesignName>Entidad_alumno</ownerDesignName>
+<engineerTo>
+<item key="489E838B-1DB2-7231-650D-3B4B84782D96" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha Nacimiento" id="2CDF48A6-4116-7877-C810-79A01A187AAE">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 04:50:03 UTC</createdTime>
+<ownerDesignName>Entidad_alumno</ownerDesignName>
+<engineerTo>
+<item key="489E838B-1DB2-7231-650D-3B4B84782D96" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nacionalidad" id="D89BD105-CAAD-2AFA-BF5D-2ECF6E8045C6">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 04:50:25 UTC</createdTime>
+<ownerDesignName>Entidad_alumno</ownerDesignName>
+<engineerTo>
+<item key="489E838B-1DB2-7231-650D-3B4B84782D96" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Direccion" id="5E107C48-EC74-2123-4677-FCF402C7DE31">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 04:51:25 UTC</createdTime>
+<ownerDesignName>Entidad_alumno</ownerDesignName>
+<engineerTo>
+<item key="489E838B-1DB2-7231-650D-3B4B84782D96" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E0174BF0-494D-E9C8-EF8F-4F3A0006C771" name="Alumno PK">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 04:48:40 UTC</createdTime>
+<ownerDesignName>Entidad_alumno</ownerDesignName>
+<engineerTo>
+<item key="489E838B-1DB2-7231-650D-3B4B84782D96" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7DECDA48-007A-B2B7-BE52-D1E12D4C99BC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

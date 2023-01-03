@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="113320A3-2943-5EE3-5399-94329B283D19" name="Producto">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 06:25:49 UTC</createdTime>
+<generatorID>6834E85F-C8D3-F9EB-4DAC-FC3B955A4D68</generatorID>
+<ownerDesignName>Producto-cliente-proveedor</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Codigo_Producto" id="B5A15C98-3794-B312-10E8-DA337301DF3D">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 06:25:49 UTC</createdTime>
+<generatorID>2E702CD0-5813-E0A9-680B-645C09BDEA6F</generatorID>
+<ownerDesignName>Producto-cliente-proveedor</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Codigo_proveedor" id="4C310978-06DA-1DCE-9179-D12B1DF164BC">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 06:25:49 UTC</createdTime>
+<generatorID>D84BF079-8F80-3B87-F358-381EC03A0A2C</generatorID>
+<ownerDesignName>Producto-cliente-proveedor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="0EEADFEE-A124-D036-CFA6-F68550CE15D3">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 06:25:49 UTC</createdTime>
+<generatorID>9FA4DA95-FCAE-1637-C5DD-2F9411A53D73</generatorID>
+<ownerDesignName>Producto-cliente-proveedor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cantidad" id="D1F9A52E-5495-E662-4633-ABD7038284E8">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 06:25:49 UTC</createdTime>
+<generatorID>60BE4930-6D05-136B-92A9-254E1D136A18</generatorID>
+<ownerDesignName>Producto-cliente-proveedor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Precio" id="F2F2BFF2-404D-449A-21AE-D58C72B2A701">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 06:25:49 UTC</createdTime>
+<generatorID>35FFB62B-06EC-3F07-BDB6-C181227FDDA5</generatorID>
+<ownerDesignName>Producto-cliente-proveedor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="454D6EF2-493D-F52B-1733-61A2F4DDC280" name="Producto_PK">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 06:25:49 UTC</createdTime>
+<generatorID>F554F6CB-5BC2-B892-5A93-2201DE57BE58</generatorID>
+<ownerDesignName>Producto-cliente-proveedor</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5A15C98-3794-B312-10E8-DA337301DF3D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

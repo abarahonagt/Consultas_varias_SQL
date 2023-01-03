@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6834E85F-C8D3-F9EB-4DAC-FC3B955A4D68" name="Producto">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 06:17:48 UTC</createdTime>
+<ownerDesignName>Producto-cliente-proveedor</ownerDesignName>
+<engineerTo>
+<item key="9786B403-1FEF-DDB1-7414-2098C2BAC1AF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Codigo Producto" id="2E702CD0-5813-E0A9-680B-645C09BDEA6F">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 06:18:01 UTC</createdTime>
+<ownerDesignName>Producto-cliente-proveedor</ownerDesignName>
+<engineerTo>
+<item key="9786B403-1FEF-DDB1-7414-2098C2BAC1AF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Codigo proveedor" id="D84BF079-8F80-3B87-F358-381EC03A0A2C">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 06:18:59 UTC</createdTime>
+<ownerDesignName>Producto-cliente-proveedor</ownerDesignName>
+<engineerTo>
+<item key="9786B403-1FEF-DDB1-7414-2098C2BAC1AF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="9FA4DA95-FCAE-1637-C5DD-2F9411A53D73">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 06:18:13 UTC</createdTime>
+<ownerDesignName>Producto-cliente-proveedor</ownerDesignName>
+<engineerTo>
+<item key="9786B403-1FEF-DDB1-7414-2098C2BAC1AF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cantidad" id="60BE4930-6D05-136B-92A9-254E1D136A18">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 06:18:26 UTC</createdTime>
+<ownerDesignName>Producto-cliente-proveedor</ownerDesignName>
+<engineerTo>
+<item key="9786B403-1FEF-DDB1-7414-2098C2BAC1AF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Precio" id="35FFB62B-06EC-3F07-BDB6-C181227FDDA5">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 06:18:44 UTC</createdTime>
+<ownerDesignName>Producto-cliente-proveedor</ownerDesignName>
+<engineerTo>
+<item key="9786B403-1FEF-DDB1-7414-2098C2BAC1AF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F554F6CB-5BC2-B892-5A93-2201DE57BE58" name="Producto PK">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 06:18:10 UTC</createdTime>
+<ownerDesignName>Producto-cliente-proveedor</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="9786B403-1FEF-DDB1-7414-2098C2BAC1AF" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2E702CD0-5813-E0A9-680B-645C09BDEA6F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

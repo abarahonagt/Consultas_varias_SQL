@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0C97152A-728C-FF59-DC4C-92EAD1F2EABC" name="Vehiculo">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 04:38:04 UTC</createdTime>
+<ownerDesignName>Tarea entidades</ownerDesignName>
+<engineerTo>
+<item key="2CA86B69-23E9-F12C-5F9C-C4AD11BA062B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="No. de chasis" id="76C157FD-847A-EE01-2381-625036AFB2C2">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 04:38:22 UTC</createdTime>
+<ownerDesignName>Tarea entidades</ownerDesignName>
+<engineerTo>
+<item key="2CA86B69-23E9-F12C-5F9C-C4AD11BA062B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Marca" id="E18CAD59-563A-FB67-073F-E45F060744C6">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 04:38:58 UTC</createdTime>
+<ownerDesignName>Tarea entidades</ownerDesignName>
+<engineerTo>
+<item key="2CA86B69-23E9-F12C-5F9C-C4AD11BA062B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Modelo" id="EC329FBF-499F-77CC-3047-75E2E999A125">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 04:39:42 UTC</createdTime>
+<ownerDesignName>Tarea entidades</ownerDesignName>
+<engineerTo>
+<item key="2CA86B69-23E9-F12C-5F9C-C4AD11BA062B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tipo de transmision" id="E9C028EC-38E2-7EBA-DCEE-21905DA584E6">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 04:40:00 UTC</createdTime>
+<ownerDesignName>Tarea entidades</ownerDesignName>
+<engineerTo>
+<item key="2CA86B69-23E9-F12C-5F9C-C4AD11BA062B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Lugar de fabricacion" id="78C79E7F-FDB5-F441-2C3A-7880A0A8FD4B">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 04:41:14 UTC</createdTime>
+<ownerDesignName>Tarea entidades</ownerDesignName>
+<engineerTo>
+<item key="2CA86B69-23E9-F12C-5F9C-C4AD11BA062B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha de fabricacion" id="048B1323-3BB8-AF2D-9DF0-76515F719C70">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 04:41:34 UTC</createdTime>
+<ownerDesignName>Tarea entidades</ownerDesignName>
+<engineerTo>
+<item key="2CA86B69-23E9-F12C-5F9C-C4AD11BA062B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AA1C4B63-8967-7CEB-715F-BF3C3919FF39" name="Vehiculo PK">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 04:39:38 UTC</createdTime>
+<ownerDesignName>Tarea entidades</ownerDesignName>
+<engineerTo>
+<item key="2CA86B69-23E9-F12C-5F9C-C4AD11BA062B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>76C157FD-847A-EE01-2381-625036AFB2C2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

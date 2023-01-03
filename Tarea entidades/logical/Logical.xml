@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="919BF646-6185-C759-32D2-384092F1DE62" mainViewID="78784CB4-7A9F-7880-1FB7-D4984F364976">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 04:21:09 UTC</createdTime>
+<ownerDesignName>Tarea entidades</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

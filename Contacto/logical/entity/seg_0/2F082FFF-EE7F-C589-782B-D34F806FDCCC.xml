@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2F082FFF-EE7F-C589-782B-D34F806FDCCC" name="Telefono">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 04:14:33 UTC</createdTime>
+<ownerDesignName>Contacto</ownerDesignName>
+<engineerTo>
+<item key="422219D3-097B-854B-05DA-64393DF0B5C2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_telefono" id="3867D181-CA56-D60A-C0B4-5202E3082480">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 04:14:44 UTC</createdTime>
+<ownerDesignName>Contacto</ownerDesignName>
+<engineerTo>
+<item key="422219D3-097B-854B-05DA-64393DF0B5C2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_contacto" id="1583D182-6033-A4C0-2CA9-6A0F35D661ED">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 04:22:28 UTC</createdTime>
+<ownerDesignName>Contacto</ownerDesignName>
+<engineerTo>
+<item key="422219D3-097B-854B-05DA-64393DF0B5C2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_tipo_telefono" id="D2C8DA59-B80B-24EB-B259-A25162434BA1">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 05:07:02 UTC</createdTime>
+<generatorID>541C4366-1A76-82F9-227A-789D3D14ADF5</generatorID>
+<ownerDesignName>Contacto</ownerDesignName>
+<engineerTo>
+<item key="422219D3-097B-854B-05DA-64393DF0B5C2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>0B784537-4B0A-B094-EE2D-142D7E27E715</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="727B5FB0-E568-274F-F97E-06E4D968FB8F" name="Telefono PK">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-15 04:15:04 UTC</createdTime>
+<ownerDesignName>Contacto</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="422219D3-097B-854B-05DA-64393DF0B5C2" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3867D181-CA56-D60A-C0B4-5202E3082480</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

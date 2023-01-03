@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="07E74A95-83DA-0761-E01D-47B3669913C3" name="Vehiculo">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 04:42:44 UTC</createdTime>
+<generatorID>0C97152A-728C-FF59-DC4C-92EAD1F2EABC</generatorID>
+<ownerDesignName>Tarea entidades</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="No__de_chasis" id="3E22CB7F-8831-8871-630F-731F0F154CBA">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 04:42:44 UTC</createdTime>
+<generatorID>76C157FD-847A-EE01-2381-625036AFB2C2</generatorID>
+<ownerDesignName>Tarea entidades</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Marca" id="42BCA9B9-564C-C7DC-A802-DA1B95E9B11A">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 04:42:44 UTC</createdTime>
+<generatorID>E18CAD59-563A-FB67-073F-E45F060744C6</generatorID>
+<ownerDesignName>Tarea entidades</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Modelo" id="D696D25B-C709-88CF-F02A-2119C75568A7">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 04:42:44 UTC</createdTime>
+<generatorID>EC329FBF-499F-77CC-3047-75E2E999A125</generatorID>
+<ownerDesignName>Tarea entidades</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipo_de_transmision" id="9D40116A-5CA2-CF7A-8444-3D31D1F4EECA">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 04:42:44 UTC</createdTime>
+<generatorID>E9C028EC-38E2-7EBA-DCEE-21905DA584E6</generatorID>
+<ownerDesignName>Tarea entidades</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Lugar_de_fabricacion" id="7BEE2076-C5B2-BD3D-3414-304CE916FD78">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 04:42:44 UTC</createdTime>
+<generatorID>78C79E7F-FDB5-F441-2C3A-7880A0A8FD4B</generatorID>
+<ownerDesignName>Tarea entidades</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_de_fabricacion" id="B6E92BEC-EAF1-6115-D7AB-BB00C28B48BA">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 04:42:44 UTC</createdTime>
+<generatorID>048B1323-3BB8-AF2D-9DF0-76515F719C70</generatorID>
+<ownerDesignName>Tarea entidades</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EF316D75-DE2B-77DB-3E39-28E88EAC4CEE" name="Vehiculo_PK">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 04:42:44 UTC</createdTime>
+<generatorID>AA1C4B63-8967-7CEB-715F-BF3C3919FF39</generatorID>
+<ownerDesignName>Tarea entidades</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E22CB7F-8831-8871-630F-731F0F154CBA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

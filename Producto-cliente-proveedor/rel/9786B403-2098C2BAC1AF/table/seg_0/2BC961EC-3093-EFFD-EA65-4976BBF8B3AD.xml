@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2BC961EC-3093-EFFD-EA65-4976BBF8B3AD" name="Proveedor">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 06:25:49 UTC</createdTime>
+<generatorID>D982A2D8-30F2-FBE8-5B8C-A2D746E8DF12</generatorID>
+<ownerDesignName>Producto-cliente-proveedor</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Codigo_proveedor" id="7058D5C2-4DAB-C029-F492-15459627DBF8">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 06:25:49 UTC</createdTime>
+<generatorID>34D0DD44-564F-F80B-1BA2-06BAEED74691</generatorID>
+<ownerDesignName>Producto-cliente-proveedor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NIT" id="6FE1D2C7-54A1-1F8C-C2B8-D33F7461CA10">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 06:25:49 UTC</createdTime>
+<generatorID>C0730A97-4591-68E0-F930-059BA05392AE</generatorID>
+<ownerDesignName>Producto-cliente-proveedor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="205275CD-9DBD-36F8-5BAE-90319BE945AA">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 06:25:49 UTC</createdTime>
+<generatorID>1DC906BB-36D7-6554-462A-431F4F9DEAA2</generatorID>
+<ownerDesignName>Producto-cliente-proveedor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Direccion" id="07BF6FC0-A9B0-DC72-E221-0DDF9CA3570F">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 06:25:49 UTC</createdTime>
+<generatorID>9DCAD29E-6993-65AF-C4DA-1DD849761621</generatorID>
+<ownerDesignName>Producto-cliente-proveedor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F1F8FE60-5F47-2CB4-25E0-3CC5B9A5A970" name="Proveedor_PKv1">
+<createdBy>Abner</createdBy>
+<createdTime>2021-08-07 06:34:50 UTC</createdTime>
+<ownerDesignName>Producto-cliente-proveedor</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7058D5C2-4DAB-C029-F492-15459627DBF8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
